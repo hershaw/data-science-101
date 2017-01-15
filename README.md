@@ -14,7 +14,7 @@ This meetup will be a 2 hour workshop that will attempt to provide an superficia
 
 The output of this workshop will be a predictive model that YOU create. This is because in order to build a predictive model, you will need to do a bit of data science as well as use some packages that allow you to build a model.
 
-To create a predictive model, the tasks involved are typically the following:
+To create a predictive model, some of the tasks typeicall involved are typically the following:
 
 1. Investigate the data
   1. Single factor analysis
@@ -23,3 +23,9 @@ To create a predictive model, the tasks involved are typically the following:
   1. Select a model
   1. Train the model
   1. Evaluate it's quality
+  
+## Format
+
+1. You will form groups of 3-5 people. We should try to get at least one experienced person in each group.
+1. After each section mentioned above, one group will take 5-10 minutes to present their findings.
+   The time we will take for each section will be about 25 minutes.
