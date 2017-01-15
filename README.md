@@ -20,5 +20,6 @@ To create a predictive model, the tasks involved are typically the following:
   1. Single factor analysis
   1. Multi-factor analysis
 2. Build a predictive model
+  1. Select a model
   1. Train the model
   1. Evaluate it's quality
