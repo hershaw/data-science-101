@@ -54,7 +54,7 @@ Take a note of the filepath on which you cloned the repo!
 
 Assuming you've cloned the repo onto your desktop on OS X, the command would look something like
 
-- `cd ~/Desktop`
+- `cd ~/Desktop/data-science-101`
 
 #### Start the virtual machine
 
