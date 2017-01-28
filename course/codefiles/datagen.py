@@ -4,8 +4,8 @@ import pandas as pd
 
 def random_xy(num_points=100):
     return pd.DataFrame({
-        'x': np.random.rand(num_points),
-        'y': np.random.rand(num_points)
+        'x': np.random.normal(num_points),
+        'y': np.random.normal(num_points)
     })
 
 
