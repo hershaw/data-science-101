@@ -19,14 +19,16 @@ def x_plus_noise(num_points=100, slope=1, randomness=0.1):
     })
 
 
-def data_3d(num_points=100, randomness=0.1):
+def data_3d(num_points=100, randomness=0.1, theta_x=30, theta_z=60):
     data = pd.DataFrame({
         'x': np.random.normal(scale=10, size=num_points),
-        'y': np.random.normal(scale=1, size=num_points),
+        'y': np.random.normal(scale=2, size=num_points),
         'z': np.random.normal(scale=randomness, size=num_points)
     })
     return pd.DataFrame(
-        (np.dot(_rot_mat_x(), np.dot(_rot_mat_z(), data.values.transpose()))).transpose(),
+        (np.dot(_rot_mat_x(theta=np.radians(theta_x)),
+                np.dot(_rot_mat_z(theta=np.radians(theta_z)),
+                       data.values.transpose()))).transpose(),
         columns=['x', 'y', 'z']
     )
 
