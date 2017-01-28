@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
     v.cpus = 4
   end
 
-  config.vm.synced_folder "classes", "/home/vagrant/classes", type: "nfs"
+  config.vm.synced_folder "course", "/home/vagrant/course", type: "nfs"
   config.vm.network "private_network", ip: "192.168.50.13"
   config.vm.network "forwarded_port", guest: 8888, host: 8888
 
