@@ -30,3 +30,4 @@ def _colors_from_labels(labels):
     # raised if labels is None
     except AttributeError:
         return 'b'
+
