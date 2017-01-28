@@ -5,8 +5,13 @@ any sub-directories. You can just browse the directories on github.com
 in your favorite browser for instructions on how to use the directory's
 contents.
 
-Since this README is at the top-level, it contains installation and
-usage instructions.
+Since this README is at the top-level, it contains installation and usage instructions.
+
+## Prerequisites
+
+- ~1GB of free memory on your computer.
+- Some hundreds of megabytes free on your computer
+- The ability to read a README and follow the instructions in it.
 
 ## Setup
 
