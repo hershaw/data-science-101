@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn import datasets
 
 
 def random_xy(num_points=100):
@@ -39,6 +40,16 @@ def label_data(df, p=0.1):
         np.random.binomial(1, p, df.shape[0])
     )
 
+
+def get_iris():
+    iris = datasets.load_iris()
+    return pd.DataFrame({
+        'sepal_length': iris.data[:, 0],
+        'sepal_width': iris.data[:, 1],
+        'petal_length': iris.data[:, 2],
+        'petal_width': iris.data[:, 3],
+        'target': iris.target,
+    })
 
 def _rot_mat_x(theta=np.radians(30)):
     return np.array([
