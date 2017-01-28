@@ -1,31 +1,11 @@
-## Reason
+## Setup
 
-I get lots of questions about how to get into the space. Some variations of the questions are the following
+TODO
 
-- I have a math / science background and would like to get into machine learning / data science but I don’t know where to start.
-- I am a programmer and I’m interesting in what machine learning / data science is, how do I get started?
-- I would like a job in data science but I don’t have any experience.
+## Repo organization
 
-In order to give those of you asking this question a bit of an answer we are doing an interactive workshop.
-
-## What is it
-
-This meetup will be a 2 hour workshop that will attempt to provide an superficial but efficient overview into some common activities involved in doing data science and machine learning.
-
-The output of this workshop will be a predictive model that YOU create. This is because in order to build a predictive model, you will need to do a bit of data science as well as use some packages that allow you to build a model.
-
-To create a predictive model, some of the tasks typeicall involved are typically the following:
-
-1. Investigate the data
-  1. Single factor analysis
-  1. Multi-factor analysis
-2. Build a predictive model
-  1. Select a model
-  1. Train the model
-  1. Evaluate it's quality
-  
-## Format
-
-1. You will form groups of 3-5 people. We should try to get at least one experienced person in each group.
-1. After each section mentioned above, one group will take 5-10 minutes to present their findings.
-   The time we will take for each section will be about 25 minutes.
+- `course/codefiles` contains `.py` files with helpers you will use throughout the course
+- `course/class1/correlation/examples` contains example files with proofs of concept for using correlations
+- `course/class1/correlation/iris` a blank directory where students will analyse the iris dataset using correlation
+- `course/class1/pca/examples` contains example files with proofs of concept for using PCA
+- `course/class1/pca/iris` a blank directory where students will analyse the iris dataset using PCA
