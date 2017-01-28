@@ -1,6 +1,10 @@
 ## Setup
 
-TODO
+Install vagrant and virtualbox (need to explain more)
+
+`vagrant up`
+
+Visit `localhost:8080` in your browser. You will see the `course` directory.
 
 ## Repo organization
 
