@@ -78,3 +78,16 @@ everything was installed okay. If you can run this without errors, you are good 
 If for some reason this doesn't work, head over to the [glitter channel](https://gitter.im/data-science-101/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
 
 
+### Final notes
+
+More useful commands to execute from the `data-science-101` root directory
+
+- `vagrant halt`
+  - shuts down the virtual machine for when you're done working for the day
+- `vagrant up`
+  - start it up again when you're ready to work
+- `vagrant reload`
+  - if for some reason things get messed up and you need to restart
+- `vagrant destroy -f && vagrant up`
+  - if things get SUPER messed up and you need to start all over
+
