@@ -70,7 +70,7 @@ your learnings and ask for help on the class' [glitter channel](https://gitter.i
 
 #### Make sure that jupyter notebook is running
 
-Open http://localhost:88888 in your browser and you should see the `course` directory.
+Open [http://localhost:8888](http://localhost:8888) in your browser and you should see the `course` directory.
 
 Using jupyter notebook, enter the `course` directory and run `test.ipynb` to make sure that
 everything was installed okay. If you can run this without errors, you are good to go!
