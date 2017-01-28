@@ -31,6 +31,15 @@ def data_3d(num_points=100, randomness=0.1):
     )
 
 
+def label_data(df, p=0.1):
+    """ Labels data as +1 or -1, with probability p of incorrect labeling.
+    """
+    return ((df['x'] > 0).astype(int) * 2 - 1) * np.power(
+        -1,
+        np.random.binomial(1, p, df.shape[0])
+    )
+
+
 def _rot_mat_x(theta=np.radians(30)):
     return np.array([
         [1, 0, 0],
