@@ -4,15 +4,15 @@ import pandas as pd
 
 def random_xy(num_points=100):
     return pd.DataFrame({
-        'x': np.random.normal(num_points),
-        'y': np.random.normal(num_points)
+        'x': np.random.normal(size=num_points),
+        'y': np.random.normal(size=num_points)
     })
 
 
 def x_plus_noise(num_points=100, slope=1, randomness=0.1):
     if not (0 <= randomness <= 1):
         raise ValueError('randomness must be between 0 and 1 (inclusive).')
-    x = np.random.normal(num_points)
+    x = np.random.normal(size=num_points)
     return pd.DataFrame({
         'x': x,
         'y': slope * x + np.random.normal(scale=randomness, size=num_points)
