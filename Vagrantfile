@@ -28,6 +28,7 @@ Vagrant.configure(2) do |config|
   SHELL
 
   config.vm.provision "run-notebook", type: "shell", run: "always", privileged: false, inline: <<-SHELL
+    export PYTHONPATH=.:/home/vagrant/course
     nohup jupyter-notebook --notebook-dir=/home/vagrant &
   SHELL
 
