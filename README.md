@@ -32,7 +32,7 @@ Follow each of the links to download and install.
   - All others: again, you probably know what you're doing.
 - [vagrant](https://www.vagrantup.com/). *Important note for OSX USERS* please download [vagrant 1.8.5](https://releases.hashicorp.com/vagrant/1.8.5/)
   - [Windows](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.dmg)
-  - [OS X](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.msi)
+  - [OS X](https://releases.hashicorp.com/vagrant/1.8.5/)
   - Do I need to say it again? ;-)
 
 ### Step 2 - Clone this repo
