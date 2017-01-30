@@ -31,7 +31,7 @@ Follow each of the links to download and install.
   - [OS X](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg)
   - All others: again, you probably know what you're doing.
 - [vagrant](https://www.vagrantup.com/). *Important note for OSX USERS* please download [vagrant 1.8.5](https://releases.hashicorp.com/vagrant/1.8.5/)
-  - [Windows](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.dmg)
+  - [Windows](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.msi)
   - [OS X](https://releases.hashicorp.com/vagrant/1.8.5/)
   - Do I need to say it again? ;-)
 
