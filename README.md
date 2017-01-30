@@ -48,7 +48,7 @@ If you are cloning from the command line:
   
 Take a note of the filepath on which you cloned the repo!
   
-### Step 4 - Start your environment
+### Step 3 - Start your environment
 
 #### Navigate on the command line to the root of the repo
 
@@ -66,7 +66,7 @@ If you're uncomfortable on the command line, please do your best to power throug
 your learnings and ask for help on the class' [glitter channel](https://gitter.im/data-science-101/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
 
 
-### Step 5
+### Step 4
 
 #### Make sure that jupyter notebook is running
 
