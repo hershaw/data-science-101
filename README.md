@@ -11,6 +11,7 @@ Since this README is at the top-level, it contains installation and usage instru
 
 - ~1GB of free memory on your computer.
 - Some hundreds of megabytes free on your computer
+- 64-bit processor
 - The ability to read a README and follow the instructions in it.
 
 ## Setup
