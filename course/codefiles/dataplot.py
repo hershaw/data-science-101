@@ -26,7 +26,7 @@ def plot_principal_components(df, x1=0, x2=1, labels=None):
 
 def _colors_from_labels(labels):
     try:
-        return labels.map(lambda x: 'r' if x > 0 else 'b')
+        return labels.map(lambda x: 'r' if x == 0 else 'b' if x == 1 else 'g')
     # raised if labels is None
     except AttributeError:
         return 'b'
