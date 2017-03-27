@@ -1,6 +1,6 @@
 # Class2 - Data Cleaning
 
-In this class we will be looking at detecting data problems and cleaning your data. As in the previous class, we will provide some data and examples to demonstrate concepts then you are expected to perform your own analysis on a new dataset.
+In this class we will be looking at detecting data problems and cleaning your data. As in the previous class, we will provide some data and examples to demonstrate concepts, then you are expected to perform your own analysis on a new dataset.
 
 ## Structure
 
@@ -20,11 +20,11 @@ data = get_titanic()
 
 At this point, `data` will have a real-live titanic dataset that you will be ready to work on!
 
-## Collabroate!
+## Collaborate!
 
 Work with each other and discuss your results. Don't be shy!
 
 
 ## Let's get started!
 
-Enter the `00-detection` directory first and read the README and then repeat for the `01-clean` directory.
+Enter the `00-detection` directory first and read the README. Then, repeat for the `01-clean` directory.
