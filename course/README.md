@@ -8,7 +8,7 @@ Jupyter notebooks are great for proof-of-concept coding in python as well as sev
 You can [read here](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html)
 about how to use jupyter notebooks but the most important thing to remember is:
 
-- To execute the code in a cell, navigate to it and press `Control-Enter`. That's Control and Enter at the same time.
+- To execute the code in a cell, navigate to it and press `Shift-Enter`. That's Shift and Enter at the same time.
 
 If you've followed the instructions in the main README, you should be able to open this directory
 in your jupyter notebook browser and execute the cells in `test.ipynb`.
