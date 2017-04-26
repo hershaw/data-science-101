@@ -97,9 +97,12 @@ More useful commands to execute from the `data-science-101` root directory
 ## Alternative setup using docker 
 
 ### Step 1
+
+Install:
 - [git](https://git-scm.com/)
   - If you're on Windows or OS X and don't know what git is, [GitHub Desktop](https://desktop.github.com/) is probably easiest.
   - All others: you probably know what to do.
+- [docker](https://docs.docker.com/engine/installation/)
 
 ### Step 2
 
