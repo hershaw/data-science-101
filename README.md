@@ -118,7 +118,8 @@ If you are cloning from the command line:
 ```
 2. Run a container:
 ```shell
-    $ docker run -it --rm -p 8888:8888 --volume ~/workspace/data-science-101:/data-science-101 --workdir /data-science-101 data-sciencecience-101 data-science
+    $ docker run -it --rm -p 8888:8888 --volume ~/workspace/data-science-101:/data-science-101 \
+    --workdir /data-science-101 data-sciencecience-101 -e -e PYTHONPATH=.:/data-science-101/course data-science
 ```
 
 ### Step 4
