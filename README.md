@@ -20,6 +20,8 @@ Since this README is at the top-level, it contains installation and usage instru
 
 [Sign up](https://github.com/join) for a GitHub account if you don't already have one. Really, it's quite useful.
 
+Note: if looking for a docker smaller footprint jump to the end.
+
 ### Step 1 - Install dependencies
 
 Follow each of the links to download and install.
@@ -78,7 +80,6 @@ everything was installed okay. If you can run this without errors, you are good 
 
 If for some reason this doesn't work, head over to the [glitter channel](https://gitter.im/data-science-101/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
 
-
 ### Final notes
 
 More useful commands to execute from the `data-science-101` root directory
@@ -91,4 +92,41 @@ More useful commands to execute from the `data-science-101` root directory
   - if for some reason things get messed up and you need to restart
 - `vagrant destroy -f && vagrant up`
   - if things get SUPER messed up and you need to start all over
+
+
+## Alternative setup using docker 
+
+### Step 1
+- [git](https://git-scm.com/)
+  - If you're on Windows or OS X and don't know what git is, [GitHub Desktop](https://desktop.github.com/) is probably easiest.
+  - All others: you probably know what to do.
+
+### Step 2
+
+If you installed git using `GitHub Desktop`, follow [these instructions](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/)
+
+If you are cloning from the command line:
+```shell
+1. $ git clone https://github.com/hershaw/data-science-101.git
+```
+
+### Step 3 
+
+1. Build a docker image (first time takes longer):
+```shell
+    $ docker build -t data-science -f Dockerfile .
+```
+2. Run a container:
+```shell
+    $ docker run -it --rm -p 8888:8888 --volume ~/workspace/data-science-101:/data-science-101 --workdir /data-science-101 data-sciencecience-101 data-science
+```
+
+### Step 4
+
+Open the link provided in the interactive shell something like http://localhost:8888/?token=d1ab96467698d1addffac95d634d777fd059ccd4a7b2094e.
+
+### Final notes
+
+This is not the recommended security approach. 
+Expect much less hardware requirements.
 
