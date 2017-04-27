@@ -120,9 +120,10 @@ If you are cloning from the command line:
     $ docker build -t data-science -f Dockerfile .
 ```
 2. Run a container:
+(Assuming your code is located on "~/Desktop/data-science-101". If needed replace it with something meaningful.)  
 ```shell
-    $ docker run -it --rm -p 8888:8888 --volume ~/workspace/data-science-101:/data-science-101 \
-    --workdir /data-science-101 data-sciencecience-101 -e -e PYTHONPATH=.:/data-science-101/course data-science
+    $ docker run -it --rm -p 8888:8888 --volume ~/Desktop/data-science-101:/home/vagrant/ \
+    --workdir /home/vagrant/ -e PYTHONPATH=.:/home/vagrant/course data-science
 ```
 
 ### Step 4
