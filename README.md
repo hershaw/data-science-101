@@ -122,16 +122,17 @@ If you are cloning from the command line:
 2. Run a container:
 (Assuming your code is located on "~/Desktop/data-science-101". If needed replace it with something meaningful.)  
 ```shell
-    $ docker run -it --rm -p 8888:8888 --volume ~/Desktop/data-science-101:/home/vagrant/ \
+    $ docker run -it --rm -p 127.0.0.1:8888:8888 --volume ~/Desktop/data-science-101:/home/vagrant/ \
     --workdir /home/vagrant/ -e PYTHONPATH=.:/home/vagrant/course data-science
 ```
 
 ### Step 4
 
-Open the link provided in the interactive shell something like http://localhost:8888/?token=d1ab96467698d1addffac95d634d777fd059ccd4a7b2094e.
+Open http://localhost:8888 to access notebook.
+To stop everything just hit <ctrl>+c and then "y" on the interactive shell.
 
 ### Final notes
 
-This is not the recommended security approach. 
+This is not the recommended security approach, please use tokens or authentication.
 Expect much less hardware requirements.
 

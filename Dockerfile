@@ -20,6 +20,7 @@ RUN pip3 install --no-cache-dir Cython==0.25.2 \
     scikit-learn==0.18.1 seaborn==0.7.1 matplotlib==2.0.0
 
 EXPOSE 8888
-CMD ["jupyter", "notebook","--allow-root","--NotebookApp.ip='*'"]
-#CMD ["bash"]
+CMD ["jupyter", "notebook","--allow-root","--NotebookApp.ip='*'","--NotebookApp.open_browser=False","--NotebookApp.token=''"]
+#CMD ["jupyter", "notebook","--allow-root"]
+
 
